@@ -75,7 +75,7 @@ describe('RegisterPage.vue', () => {
     wrapper.vm.form.password = 'Jest!'
     wrapper.vm.submitForm()
     wrapper.vm.$nextTick(() => {
-      expect(stub).toHaveBeenCalledWith({name: 'LoginPage'})
+      expect(stub).toHaveBeenCalledWith({name: 'RegisterPage'})
     })
   })
 
